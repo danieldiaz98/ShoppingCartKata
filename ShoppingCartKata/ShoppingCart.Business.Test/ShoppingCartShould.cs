@@ -22,5 +22,16 @@ namespace ShoppingCart.Business.Test
             result.Should().Be(0);
         }
 
+        [Test]
+        public void Return_lechuga_if_there_is_a_lechuga_inside_the_shopping_cart()
+        {
+            var shoppingCart = new ShoppingCart();
+
+            var result = shoppingCart.GetProductsInShoppingCart();
+
+            result.Should().Be("Lechuga");
+        }
+
+
     }
 }
