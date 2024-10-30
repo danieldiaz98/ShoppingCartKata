@@ -44,6 +44,18 @@ namespace ShoppingCart.Business.Test
 
             result.Should().Be(2);
         }
+        [Test]
+        public void Return_three_if_there_are_three_products_in_the_shopping_cart()
+        {
+            var shoppingCart = new ShoppingCart();
+            shoppingCart.shoppingCart.Add("Lechuga");
+            shoppingCart.shoppingCart.Add("Tomate");
+            shoppingCart.shoppingCart.Add("Pan");
+
+            var result = shoppingCart.shoppingCart.Count();
+
+            result.Should().Be(3);
+        }
 
         [Test]
         public void Return_lechuga_if_there_is_a_lechuga_inside_the_shopping_cart()
