@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "6C7fo8tk82k=",
+  "dgSpecHash": "fNIHZ1k3ce4=",
   "success": true,
   "projectFilePath": "C:\\Users\\dadiaz\\Documents\\kataIndividual\\ShoppingCartKata\\ShoppingCart.Business\\ShoppingCart.Business.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\dadiaz\\.nuget\\packages\\fluentassertions\\6.12.1\\fluentassertions.6.12.1.nupkg.sha512",
+    "C:\\Users\\dadiaz\\.nuget\\packages\\system.configuration.configurationmanager\\4.4.0\\system.configuration.configurationmanager.4.4.0.nupkg.sha512",
+    "C:\\Users\\dadiaz\\.nuget\\packages\\system.security.cryptography.protecteddata\\4.4.0\\system.security.cryptography.protecteddata.4.4.0.nupkg.sha512"
+  ],
   "logs": []
 }

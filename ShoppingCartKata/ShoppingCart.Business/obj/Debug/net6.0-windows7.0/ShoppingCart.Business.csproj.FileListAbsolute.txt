@@ -1,0 +1,13 @@
+C:\Users\dadiaz\Documents\kataIndividual\ShoppingCartKata\ShoppingCart.Business\bin\Debug\net6.0-windows7.0\ShoppingCart.Business.deps.json
+C:\Users\dadiaz\Documents\kataIndividual\ShoppingCartKata\ShoppingCart.Business\bin\Debug\net6.0-windows7.0\ShoppingCart.Business.dll
+C:\Users\dadiaz\Documents\kataIndividual\ShoppingCartKata\ShoppingCart.Business\bin\Debug\net6.0-windows7.0\ShoppingCart.Business.pdb
+C:\Users\dadiaz\Documents\kataIndividual\ShoppingCartKata\ShoppingCart.Business\obj\Debug\net6.0-windows7.0\ShoppingCart.Business.csproj.AssemblyReference.cache
+C:\Users\dadiaz\Documents\kataIndividual\ShoppingCartKata\ShoppingCart.Business\obj\Debug\net6.0-windows7.0\ShoppingCart.Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dadiaz\Documents\kataIndividual\ShoppingCartKata\ShoppingCart.Business\obj\Debug\net6.0-windows7.0\ShoppingCart.Business.AssemblyInfoInputs.cache
+C:\Users\dadiaz\Documents\kataIndividual\ShoppingCartKata\ShoppingCart.Business\obj\Debug\net6.0-windows7.0\ShoppingCart.Business.AssemblyInfo.cs
+C:\Users\dadiaz\Documents\kataIndividual\ShoppingCartKata\ShoppingCart.Business\obj\Debug\net6.0-windows7.0\ShoppingCart.Business.csproj.CoreCompileInputs.cache
+C:\Users\dadiaz\Documents\kataIndividual\ShoppingCartKata\ShoppingCart.Business\obj\Debug\net6.0-windows7.0\ShoppingCart.Business.sourcelink.json
+C:\Users\dadiaz\Documents\kataIndividual\ShoppingCartKata\ShoppingCart.Business\obj\Debug\net6.0-windows7.0\ShoppingCart.Business.dll
+C:\Users\dadiaz\Documents\kataIndividual\ShoppingCartKata\ShoppingCart.Business\obj\Debug\net6.0-windows7.0\refint\ShoppingCart.Business.dll
+C:\Users\dadiaz\Documents\kataIndividual\ShoppingCartKata\ShoppingCart.Business\obj\Debug\net6.0-windows7.0\ShoppingCart.Business.pdb
+C:\Users\dadiaz\Documents\kataIndividual\ShoppingCartKata\ShoppingCart.Business\obj\Debug\net6.0-windows7.0\ref\ShoppingCart.Business.dll

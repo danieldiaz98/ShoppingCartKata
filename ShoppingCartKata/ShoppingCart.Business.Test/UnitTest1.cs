@@ -22,13 +22,4 @@ namespace ShoppingCart.Business.Test
             result.Should().Be(0);
         }
     }
-    public class ShoppingCart()
-    {
-
-        public int Calculate()
-        {
-            return 0;
-        }
-
-    }
 }
