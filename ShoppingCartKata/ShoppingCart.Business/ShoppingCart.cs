@@ -14,7 +14,12 @@ public class ShoppingCart
 
     public string GetProductsInShoppingCart()
     {
-        return "Lechuga";
+        string result = "";
+        for (int i = 0; i < shoppingCart.Count; i++)
+        {
+            result += shoppingCart[i] + " ";
+        }
+        return result.TrimEnd();
     }
 
 }
