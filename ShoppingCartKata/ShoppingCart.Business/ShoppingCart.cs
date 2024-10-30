@@ -12,6 +12,11 @@ public class ShoppingCart
         return 0;
     }
 
+    public void AddProductToShoppingCart(string product)
+    {
+        shoppingCart.Add(product);
+    }
+
     public string GetProductsInShoppingCart()
     {
         string result = "";

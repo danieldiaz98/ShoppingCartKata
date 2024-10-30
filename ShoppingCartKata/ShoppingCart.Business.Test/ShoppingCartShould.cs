@@ -61,7 +61,7 @@ namespace ShoppingCart.Business.Test
         public void Return_lechuga_if_there_is_a_lechuga_inside_the_shopping_cart()
         {
             var shoppingCart = new ShoppingCart();
-            shoppingCart.shoppingCart.Add("Lechuga");
+            shoppingCart.AddProductToShoppingCart("Lechuga");
 
             var result = shoppingCart.GetProductsInShoppingCart();
 
@@ -72,8 +72,8 @@ namespace ShoppingCart.Business.Test
         public void Return_lechuga_and_tomate_if_there_is_a_lechuga_and_a_tomate_in_the_shopping_cart()
         {
             var shoppingCart = new ShoppingCart();
-            shoppingCart.shoppingCart.Add("Lechuga");
-            shoppingCart.shoppingCart.Add("Tomate");
+            shoppingCart.AddProductToShoppingCart("Lechuga");
+            shoppingCart.AddProductToShoppingCart("Tomate");
 
             var result = shoppingCart.GetProductsInShoppingCart();
 
@@ -84,9 +84,9 @@ namespace ShoppingCart.Business.Test
         public void Return_lechuga_tomate_and_pan_if_there_is_a_lechuga_a_tomate_and_pan_in_the_shopping_cart()
         {
             var shoppingCart = new ShoppingCart();
-            shoppingCart.shoppingCart.Add("Lechuga");
-            shoppingCart.shoppingCart.Add("Tomate");
-            shoppingCart.shoppingCart.Add("Pan");
+            shoppingCart.AddProductToShoppingCart("Lechuga");
+            shoppingCart.AddProductToShoppingCart("Tomate");
+            shoppingCart.AddProductToShoppingCart("Pan");
 
             var result = shoppingCart.GetProductsInShoppingCart();
 
