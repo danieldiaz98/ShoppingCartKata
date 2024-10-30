@@ -27,4 +27,9 @@ public class ShoppingCart
         return result.TrimEnd();
     }
 
+    public int GetTotalNumberOfProducts()
+    {
+        return shoppingCart.Count();
+    }
+
 }

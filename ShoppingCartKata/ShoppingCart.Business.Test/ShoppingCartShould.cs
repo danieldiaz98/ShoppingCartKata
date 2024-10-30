@@ -57,42 +57,22 @@ namespace ShoppingCart.Business.Test
             result.Should().Be(3);
         }
 
-        [Test]
-        public void Return_lechuga_if_there_is_a_lechuga_inside_the_shopping_cart()
+        [TestCase("Lechuga", "Lechuga")]
+        [TestCase("Lechuga Tomate", "Lechuga Tomate")]
+        [TestCase("Lechuga Tomate Pan", "Lechuga Tomate Pan")]
+        public void Return_product_names_in_shopping_cart(string values, string expected)
         {
             var shoppingCart = new ShoppingCart();
-            shoppingCart.AddProductToShoppingCart("Lechuga");
+            var products = values.Split();
+            for (int i = 0; i < products.Length; i++)
+            {
+                shoppingCart.AddProductToShoppingCart(products[i]);
+            }
 
             var result = shoppingCart.GetProductsInShoppingCart();
 
-            result.Should().Be("Lechuga");
+            result.Should().Be(expected);
         }
-
-        [Test]
-        public void Return_lechuga_and_tomate_if_there_is_a_lechuga_and_a_tomate_in_the_shopping_cart()
-        {
-            var shoppingCart = new ShoppingCart();
-            shoppingCart.AddProductToShoppingCart("Lechuga");
-            shoppingCart.AddProductToShoppingCart("Tomate");
-
-            var result = shoppingCart.GetProductsInShoppingCart();
-
-            result.Should().Be("Lechuga Tomate");
-        }
-
-        [Test]
-        public void Return_lechuga_tomate_and_pan_if_there_is_a_lechuga_a_tomate_and_pan_in_the_shopping_cart()
-        {
-            var shoppingCart = new ShoppingCart();
-            shoppingCart.AddProductToShoppingCart("Lechuga");
-            shoppingCart.AddProductToShoppingCart("Tomate");
-            shoppingCart.AddProductToShoppingCart("Pan");
-
-            var result = shoppingCart.GetProductsInShoppingCart();
-
-            result.Should().Be("Lechuga Tomate Pan");
-        }
-
 
     }
 }
