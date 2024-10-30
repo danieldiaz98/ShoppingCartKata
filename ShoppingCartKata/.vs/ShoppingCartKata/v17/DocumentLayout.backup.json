@@ -3,20 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\dadiaz\\Documents\\kataIndividual\\ShoppingCartKata\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6E4107CA-7270-4065-BF29-A1EB34E466E5}|ShoppingCart.Business.Test\\ShoppingCart.Business.Test.csproj|c:\\users\\dadiaz\\documents\\kataindividual\\shoppingcartkata\\shoppingcart.business.test\\shoppingcartshould.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6E4107CA-7270-4065-BF29-A1EB34E466E5}|ShoppingCart.Business.Test\\ShoppingCart.Business.Test.csproj|solutionrelative:shoppingcart.business.test\\shoppingcartshould.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E10E8112-C28A-482B-BAB8-13BC31035767}|ShoppingCart.Business\\ShoppingCart.Business.csproj|c:\\users\\dadiaz\\documents\\kataindividual\\shoppingcartkata\\shoppingcart.business\\shoppingcart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E10E8112-C28A-482B-BAB8-13BC31035767}|ShoppingCart.Business\\ShoppingCart.Business.csproj|solutionrelative:shoppingcart.business\\shoppingcart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{6E4107CA-7270-4065-BF29-A1EB34E466E5}|ShoppingCart.Business.Test\\ShoppingCart.Business.Test.csproj|c:\\users\\dadiaz\\documents\\kataindividual\\shoppingcartkata\\shoppingcart.business.test\\productshould.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6E4107CA-7270-4065-BF29-A1EB34E466E5}|ShoppingCart.Business.Test\\ShoppingCart.Business.Test.csproj|solutionrelative:shoppingcart.business.test\\productshould.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E10E8112-C28A-482B-BAB8-13BC31035767}|ShoppingCart.Business\\ShoppingCart.Business.csproj|c:\\users\\dadiaz\\documents\\kataindividual\\shoppingcartkata\\shoppingcart.business\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E10E8112-C28A-482B-BAB8-13BC31035767}|ShoppingCart.Business\\ShoppingCart.Business.csproj|solutionrelative:shoppingcart.business\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E10E8112-C28A-482B-BAB8-13BC31035767}|ShoppingCart.Business\\ShoppingCart.Business.csproj|c:\\users\\dadiaz\\documents\\kataindividual\\shoppingcartkata\\shoppingcart.business\\shoppingcart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E10E8112-C28A-482B-BAB8-13BC31035767}|ShoppingCart.Business\\ShoppingCart.Business.csproj|solutionrelative:shoppingcart.business\\shoppingcart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,41 +22,41 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\dadiaz\\Documents\\kataIndividual\\ShoppingCartKata\\ShoppingCart.Business\\Product.cs",
+              "RelativeDocumentMoniker": "ShoppingCart.Business\\Product.cs",
+              "ToolTip": "C:\\Users\\dadiaz\\Documents\\kataIndividual\\ShoppingCartKata\\ShoppingCart.Business\\Product.cs",
+              "RelativeToolTip": "ShoppingCart.Business\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T11:16:46.581Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Product.cs",
-              "DocumentMoniker": "C:\\Users\\dadiaz\\Documents\\kataIndividual\\ShoppingCartKata\\ShoppingCart.Business\\Product.cs",
-              "RelativeDocumentMoniker": "ShoppingCart.Business\\Product.cs",
-              "ToolTip": "C:\\Users\\dadiaz\\Documents\\kataIndividual\\ShoppingCartKata\\ShoppingCart.Business\\Product.cs",
-              "RelativeToolTip": "ShoppingCart.Business\\Product.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-30T11:16:46.581Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "ProductShould.cs",
               "DocumentMoniker": "C:\\Users\\dadiaz\\Documents\\kataIndividual\\ShoppingCartKata\\ShoppingCart.Business.Test\\ProductShould.cs",
               "RelativeDocumentMoniker": "ShoppingCart.Business.Test\\ProductShould.cs",
               "ToolTip": "C:\\Users\\dadiaz\\Documents\\kataIndividual\\ShoppingCartKata\\ShoppingCart.Business.Test\\ProductShould.cs",
               "RelativeToolTip": "ShoppingCart.Business.Test\\ProductShould.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAnwBIAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-30T11:15:44.941Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "ShoppingCart.cs",
               "DocumentMoniker": "C:\\Users\\dadiaz\\Documents\\kataIndividual\\ShoppingCartKata\\ShoppingCart.Business\\ShoppingCart.cs",
               "RelativeDocumentMoniker": "ShoppingCart.Business\\ShoppingCart.cs",
@@ -69,19 +65,6 @@
               "ViewState": "AgIAAA4AAAAAAAAAAAA9wB8AAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-30T10:12:52.32Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ShoppingCartShould.cs",
-              "DocumentMoniker": "C:\\Users\\dadiaz\\Documents\\kataIndividual\\ShoppingCartKata\\ShoppingCart.Business.Test\\ShoppingCartShould.cs",
-              "RelativeDocumentMoniker": "ShoppingCart.Business.Test\\ShoppingCartShould.cs",
-              "ToolTip": "C:\\Users\\dadiaz\\Documents\\kataIndividual\\ShoppingCartKata\\ShoppingCart.Business.Test\\ShoppingCartShould.cs",
-              "RelativeToolTip": "ShoppingCart.Business.Test\\ShoppingCartShould.cs",
-              "ViewState": "AgIAADYAAAAAAAAAAAAiwDsAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-30T09:47:56.53Z",
               "EditorCaption": ""
             }
           ]

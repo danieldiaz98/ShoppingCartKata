@@ -16,12 +16,12 @@ namespace ShoppingCart.Business.Test
 
         }
 
-        [TestCase("Lechuga", 1.17, "Lechuga")]
-        [TestCase("Tomate", 1.17, "Tomate")]
-        [TestCase("Pan", 1.17, "Pan")]
-        public void Retrieve_lechuga_given_lechuga_as_product_name(string name, double price, string expected)
+        [TestCase("Lechuga", "Lechuga")]
+        [TestCase("Tomate", "Tomate")]
+        [TestCase("Pan", "Pan")]
+        public void Retrieve_lechuga_given_lechuga_as_product_name(string name, string expected)
         {
-            var product = new Product(name, price);
+            var product = new Product(name, 0, 0);
 
             var result = product.Name;
 
