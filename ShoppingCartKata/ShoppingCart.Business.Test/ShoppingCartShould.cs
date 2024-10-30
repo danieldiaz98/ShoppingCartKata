@@ -4,7 +4,7 @@ using ShoppingCart.Business;
 
 namespace ShoppingCart.Business.Test
 {
-    public class UnitTest1
+    public class ShoppingCartShould
     {
         [SetUp]
         public void SetUp()
