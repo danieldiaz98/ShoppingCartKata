@@ -1,5 +1,6 @@
 using FluentAssertions;
 using NUnit.Framework;
+using ShoppingCart.Business;
 
 namespace ShoppingCart.Business.Test
 {
@@ -21,7 +22,6 @@ namespace ShoppingCart.Business.Test
             result.Should().Be(0);
         }
     }
-
     public class ShoppingCart()
     {
 

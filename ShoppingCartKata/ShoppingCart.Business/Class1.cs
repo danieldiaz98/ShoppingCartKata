@@ -1,8 +1,14 @@
 
 namespace ShoppingCart.Business
 {
-    public class Class1
+    public class ShoppingCart1()
     {
+
+        public int Calculate()
+        {
+            return 0;
+        }
+
     }
 
 }
