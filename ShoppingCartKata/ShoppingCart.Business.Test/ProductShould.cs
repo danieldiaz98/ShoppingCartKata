@@ -25,6 +25,16 @@ namespace ShoppingCart.Business.Test
 
             result.Should().Be("Lechuga");
         }
+
+        [Test]
+        public void Retrieve_tomate_given_tomate_as_product_name()
+        {
+            var product = new Product("Tomate", 1.17);
+
+            var result = product.Name;
+
+            result.Should().Be("Tomate");
+        }
     }
 
     public class Product
