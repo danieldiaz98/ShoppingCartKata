@@ -6,9 +6,15 @@ namespace ShoppingCart.Business.Test
 {
     public class ShoppingCartShould
     {
+        private Product productLechuga;
+        private Product productTomate;
+        private Product productPan;
         [SetUp]
         public void SetUp()
         {
+            productLechuga = new Product("Lechuga", 0, 0);
+            productTomate = new Product("Tomate", 0, 0);
+            productPan = new Product("Pan", 0, 0);
 
         }
 
@@ -26,7 +32,7 @@ namespace ShoppingCart.Business.Test
         public void Return_one_if_there_is_one_product_in_the_shopping_cart()
         {
             var shoppingCart = new ShoppingCart();
-            shoppingCart.shoppingCart.Add("Lechuga");
+            shoppingCart.shoppingCart.Add(productLechuga);
 
             var result = shoppingCart.shoppingCart.Count();
 
@@ -37,8 +43,8 @@ namespace ShoppingCart.Business.Test
         public void Return_two_if_there_are_two_products_in_the_shopping_cart()
         {
             var shoppingCart = new ShoppingCart();
-            shoppingCart.shoppingCart.Add("Lechuga");
-            shoppingCart.shoppingCart.Add("Tomate");
+            shoppingCart.shoppingCart.Add(productLechuga);
+            shoppingCart.shoppingCart.Add(productTomate);
 
             var result = shoppingCart.shoppingCart.Count();
 
@@ -48,30 +54,25 @@ namespace ShoppingCart.Business.Test
         public void Return_three_if_there_are_three_products_in_the_shopping_cart()
         {
             var shoppingCart = new ShoppingCart();
-            shoppingCart.shoppingCart.Add("Lechuga");
-            shoppingCart.shoppingCart.Add("Tomate");
-            shoppingCart.shoppingCart.Add("Pan");
+            shoppingCart.shoppingCart.Add(productLechuga);
+            shoppingCart.shoppingCart.Add(productTomate);
+            shoppingCart.shoppingCart.Add(productPan);
 
             var result = shoppingCart.shoppingCart.Count();
 
             result.Should().Be(3);
         }
 
-        [TestCase("Lechuga", "Lechuga")]
-        [TestCase("Lechuga Tomate", "Lechuga Tomate")]
-        [TestCase("Lechuga Tomate Pan", "Lechuga Tomate Pan")]
-        public void Return_product_names_in_shopping_cart(string values, string expected)
+        [Test]
+        public void Return_lechuga_tomate_if_the_products_are_in_the_cart()
         {
             var shoppingCart = new ShoppingCart();
-            var products = values.Split();
-            for (int i = 0; i < products.Length; i++)
-            {
-                shoppingCart.AddProductToShoppingCart(products[i]);
-            }
+            shoppingCart.shoppingCart.Add(productLechuga);
+            shoppingCart.shoppingCart.Add(productTomate);
 
             var result = shoppingCart.GetProductsInShoppingCart();
 
-            result.Should().Be(expected);
+            result.Should().Be("Lechuga Tomate");
         }
 
     }

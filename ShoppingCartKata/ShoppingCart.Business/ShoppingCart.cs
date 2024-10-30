@@ -2,17 +2,17 @@ namespace ShoppingCart.Business;
 
 public class ShoppingCart
 {
-    public List<String> shoppingCart;
+    public List<Product> shoppingCart;
     public ShoppingCart()
     {
-        shoppingCart = new List<String>();
+        shoppingCart = new List<Product>();
     }
     public int Calculate()
     {
         return 0;
     }
 
-    public void AddProductToShoppingCart(string product)
+    public void AddProductToShoppingCart(Product product)
     {
         shoppingCart.Add(product);
     }
@@ -22,7 +22,7 @@ public class ShoppingCart
         string result = "";
         for (int i = 0; i < shoppingCart.Count; i++)
         {
-            result += shoppingCart[i] + " ";
+            result += shoppingCart[i].Name + " ";
         }
         return result.TrimEnd();
     }
