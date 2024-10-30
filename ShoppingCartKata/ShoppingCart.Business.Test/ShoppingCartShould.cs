@@ -21,5 +21,6 @@ namespace ShoppingCart.Business.Test
 
             result.Should().Be(0);
         }
+
     }
 }
