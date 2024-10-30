@@ -37,7 +37,7 @@ namespace ShoppingCart.Business.Test
         }
 
         [Test]
-        public void Retrieve_pan_given_tomate_as_product_name()
+        public void Retrieve_pan_given_pan_as_product_name()
         {
             var product = new Product("Pan", 1.17);
 
